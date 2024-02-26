@@ -60,8 +60,6 @@ body {
 .heading {
     width: 448.4px;
     height: 38px;
-    /* top: 33px;
-    left: 51px; */
     margin: 33px 51px;
     font-weight: 800;
     border: none;
@@ -76,15 +74,11 @@ h2 {
     border: 2px solid var(--number-border-color);
     width: 117px;
     height: 83px;
-    /* top: 101px;
-    left: 217px; */
     border-radius: 5px;
     margin: auto;
     margin-bottom: 20px;
-   
     display: flex;
     justify-content: center;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 }
 
