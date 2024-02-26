@@ -54,6 +54,7 @@ body {
     width: 550px;
     background-color: var(--header-bg-color);
     color: var(--light-color);
+    border: none;
     
 }
 .heading {
