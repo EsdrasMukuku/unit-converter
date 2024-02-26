@@ -61,10 +61,11 @@ body {
     margin: 33px 51px;
     font-weight: 800;
     border: none;
-   
-    
+ 
+}
 
-
+h2 {
+    border: none;
 }
 
 .unitbox {
