@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --header-bg-color: #6943FF;
+    --light-bg-color: #F4F4F4;
+    --dark-bg-color: #1F2937;
+    --light-color: #FFFFFF;
+    --dark-color: #273549;
+    --inner-txt-light: #5A537B;
+    --inner-txt-dark: #CCC1FF;
+    --inner-btn-color: #3D3D3D;
+    --number-border-color: #B295FF;
+    --body-bg-color: #1C1C1C;
+    
+
+}
