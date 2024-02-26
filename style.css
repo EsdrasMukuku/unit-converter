@@ -43,6 +43,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
+    
 
 
 }
@@ -52,6 +53,7 @@ body {
     width: 550px;
     background-color: var(--header-bg-color);
     color: var(--light-color);
+    
 }
 .heading {
     width: 448.4px;
