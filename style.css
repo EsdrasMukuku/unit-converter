@@ -81,6 +81,7 @@ h2 {
    
     display: flex;
     justify-content: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 
 }
 
@@ -95,6 +96,7 @@ h2 {
     text-align: center;
     margin-top: 25px;
     border: none;
+    user-select: text;
 
 }
 
@@ -112,6 +114,7 @@ h2 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
