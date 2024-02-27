@@ -7,7 +7,7 @@
 
 * {
     box-sizing: border-box;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
@@ -44,6 +44,7 @@ body {
     margin: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     
 
 
@@ -125,4 +126,34 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+.convertions {
+    background-color: var(--light-bg-color);
+    width: 550px;
+    height: 444px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.convertion {
+    background-color: var(--light-color);
+    width: 500px;
+    height: 108.57px;
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.convertion p {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--inner-txt-light);
+
 }
