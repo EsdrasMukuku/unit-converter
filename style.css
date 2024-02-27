@@ -79,24 +79,23 @@ h2 {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-
-
-}
-
-.number {
-    width: 211px;
-    height: 51.23px;
-    top: 131px;
-    left: 171px;
+    background-color: var(--header-bg-color);
     font-weight: 800;
-    font-size: 58px;
+    font-size: 48px;
     line-height: 24.39px;
     text-align: center;
-    margin-top: 25px;
-    border: none;
-    user-select: text;
+    color: var(--light-color);
+    outline: none;
 
 }
+
+.unitbox:hover,
+ .unitbox:active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+
+
 
 .btn-converter {
     width: 117px;
@@ -115,4 +114,15 @@ h2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
+}
+
+.btn-converter:hover,
+.btn-converter:active {
+    background-color: aliceblue;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
