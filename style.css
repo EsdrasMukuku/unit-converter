@@ -80,6 +80,20 @@ h2 {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
+    width: 117px;
+    height: 83px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--header-bg-color);
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 24.39px;
+    text-align: center;
+    color: var(--light-color);
+    outline: none;
 }
 
 .unitbox:hover,
